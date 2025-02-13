@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+    <h1>Welcome to the AEMS System</h1>
+    <h1>Login</h1>
+    <form id="loginForm">
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required><br>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required><br>
+
+        <!-- Added id and name to the select dropdown -->
+        <label for="role">Select Role:</label>
+        <select id="role" name="role" required>
+            <option value="Admin">Admin</option>
+            <option value="User">User</option>
+            <option value="Artist">Artist</option>
+        </select><br>
+
+        <button type="submit">Login</button>
+    </form>
+    <p>Don't have an account? <a href="/signup">Sign up here</a></p>
+
+    <p id="output"></p>
+
+    <script src="/static/js/script.js"></script>
+</body>
+</html>
