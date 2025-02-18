@@ -1,7 +1,5 @@
 # Art Exhibition Management System
 
-## Scenario Group 8 - Victor Escudero, Mark Cirineo, Zaheer Safi, Diego Ramirez
-
 The **Art Exhibition Management System (AEMS)** is a web-based platform designed to assist organizers in managing art exhibitions. The system allows for the oversight of **artists, artworks, attendees, payments, and permissions**, ensuring a seamless and efficient experience.
 
 The platform is built with:
